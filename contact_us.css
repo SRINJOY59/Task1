@@ -168,3 +168,103 @@ a{
     font-weight: 900;
     font-family: 'Tilt Prism', cursive;
 }
+@media screen and (max-width:500px){
+    .elem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+    }
+    .container{
+        /* height:400px;
+        width:80%; */
+        /* flex: 50%; */
+        position: relative;
+        left: 0px;
+        bottom: 80px;
+        width: 350px;
+        flex-direction: column;
+        /* position: relative;
+        left: 500px; */
+    }
+    .box{
+        height: 330px;
+        width:350px;
+        display: flex;
+        flex-direction: column;
+    }
+    h3{
+        font-size: 50px;
+        position: relative;
+        /* right: 750px;  */
+        margin: 0;
+        padding: 0;
+        right: 50px;
+        left: 0px;
+
+    }
+    .midWord{
+        font-size: 20px;
+        position: relative;
+        bottom: 150px;
+        left: 0px;
+       /* margin: 10px; */
+    }
+    .notes{
+        font-size: 13px;
+        position: relative;
+        bottom: 130px;
+        width: 300px;
+        left: 0px;
+        display: inline;
+    }
+    .lastWord{
+        position: relative;
+        bottom: 280px;
+        width: 200px; 
+        right: 200px;
+        font-size: 17px;
+        /* display: inline; */
+    }
+    .child{
+        font-size: 9px;
+        height: 200px;
+        width: 90px;
+        display: inline;
+        padding: 1px;
+        margin: 4px;
+    }
+    .linkedInAcc{
+        font-size: 10px;
+        margin: 0;
+    }
+    button{
+        padding: 0px;
+        width: 80px;
+        font-size: 8px;
+        /* display: block; */
+    }
+    i{
+        font-size: 44px;
+    }
+    .container2{
+        position: relative;
+        left: 180px;
+        bottom: 1px;
+        /* height: 250px; */
+        height: 250px;
+        width: 300px;
+        /* bottom: 80px; */
+    }
+    /* #linkedin{
+        height: 170px;
+    } */
+    .user-box input{
+        width: 150px;
+    }
+    .submit{
+        font-size: 15px;
+        position: relative;
+        left: 30px;
+    }
+}
